@@ -1,0 +1,21 @@
+<p
+  [hidden]="isHidden"
+  [style.color]="color"
+>
+  Bonjour Je suis
+  {{firstname}} {{name}}
+</p>
+
+<button
+  (click)="showHide()"
+>click here</button>
+
+
+<input
+  #textInput
+  (keyup)="changeMessage(textInput.value)"
+  type="text"
+>
+
+Le contenu de l'input est :
+{{contenu}}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "la3BD"
+    }
+  },
+  "defaultProject": "la3BD",
+  "cli": {
+    "analytics": false
+  }
 }
