@@ -1,0 +1,17 @@
+<div
+  [style.backgroundColor]="color"
+>
+  Bonjour LABD LFIG
+</div>
+
+<input
+  #inputColor
+  (change)="changeColor(inputColor.value)"
+  type="color"
+  class="form-control"
+>
+<button
+  (click)="reset()"
+  class="brt btn-danger">
+  Reset
+</button>
