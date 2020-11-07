@@ -1,0 +1,16 @@
+<p
+  [style.color]="color"
+>recap-compo works!</p>
+<button
+  (click)="makeItYellow()"
+  class="btn btn-warning">
+  Change color to yellow
+</button>
+<div class="alert alert-primary">
+  {{message}}
+</div>
+
+<input
+  [(ngModel)]="color"
+  type="text"
+  class="form-control">

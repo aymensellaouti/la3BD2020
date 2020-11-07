@@ -9,6 +9,8 @@ import { SecondComponent } from './second/second.component';
 import { ThirdComponent } from './third/third.component';
 import { ColorComponent } from './color/color.component';
 import { TwoComponent } from './two/two.component';
+import { RecapCompoComponent } from './components/recap-compo/recap-compo.component';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { TwoComponent } from './two/two.component';
     SecondComponent,
     ThirdComponent,
     ColorComponent,
-    TwoComponent
+    TwoComponent,
+    RecapCompoComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
