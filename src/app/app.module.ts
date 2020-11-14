@@ -11,6 +11,8 @@ import { ColorComponent } from './color/color.component';
 import { TwoComponent } from './two/two.component';
 import { RecapCompoComponent } from './components/recap-compo/recap-compo.component';
 import { CardComponent } from './components/card/card.component';
+import { PereComponent } from './components/pere/pere.component';
+import { FilsComponent } from './fils/fils.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { CardComponent } from './components/card/card.component';
     ColorComponent,
     TwoComponent,
     RecapCompoComponent,
-    CardComponent
+    CardComponent,
+    PereComponent,
+    FilsComponent
   ],
   imports: [
     BrowserModule,
