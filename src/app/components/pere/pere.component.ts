@@ -7,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PereComponent implements OnInit {
   monMessagePourMonFils = 'Salut c est papa';
+  bgc = 'green';
   constructor() {}
 
   ngOnInit(): void {}
   processSonMessage(messageDuFils) {
-    alert(`Mon message est ${messageDuFils.message} et j'ai ${messageDuFils.age} et mon metier est ${messageDuFils.metier}`);
+    alert(
+      `Mon message est ${messageDuFils.message} et j'ai ${messageDuFils.age} et mon metier est ${messageDuFils.metier}`
+    );
+  }
+
+  changeColor(newColor) {
+    this.bgc = newColor;
   }
 }

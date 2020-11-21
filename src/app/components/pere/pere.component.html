@@ -1,8 +1,16 @@
-<p>pere works!</p>
-<app-color [defaultColor]="'yellow'"></app-color>
-<!-- <app-color [defaultColor]="'lightblue'"></app-color>
+<div [style.backgroundColor]="bgc">
+  <p>pere works!</p>
+  <app-color [defaultColor]="'yellow'"></app-color>
+  <!-- <app-color [defaultColor]="'lightblue'"></app-color>
  -->
- <app-fils (sendMessageToDad)="processSonMessage($event)" [monMessage]="'message de ton papa'"></app-fils>
-<!-- <app-fils [monMessage]="'Cc fiston'"></app-fils>
+  <app-fils
+    (sendColor)="changeColor($event)"
+    (sendMessageToDad)="processSonMessage($event)"
+    [monMessage]="'message de ton papa'"
+  ></app-fils>
+  <!-- <app-fils [monMessage]="'Cc fiston'"></app-fils>
 <app-fils [monMessage]="monMessagePourMonFils"></app-fils>
 <app-fils></app-fils> -->
+
+  Div du père
+</div>

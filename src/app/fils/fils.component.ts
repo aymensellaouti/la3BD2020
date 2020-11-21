@@ -13,6 +13,8 @@ export class FilsComponent implements OnInit {
   */
   @Input() monMessage = 'contenu inséré par moi même';
   @Output() sendMessageToDad = new EventEmitter();
+  @Output() sendColor = new EventEmitter();
+  @Input() favoriteColor = 'RED';
   message = 'Cc je suis le fiston';
   donnesDuPere = {
     message: 'cc',
@@ -25,5 +27,10 @@ export class FilsComponent implements OnInit {
 
   sendEvent() {
     this.sendMessageToDad.emit(this.donnesDuPere);
+  }
+
+  sendDefaultColor() {
+  
+    this.sendColor.emit(this.favoriteColor);
   }
 }
