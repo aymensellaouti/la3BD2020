@@ -20,6 +20,7 @@ import { DetailComponent } from './cv/detail/detail.component';
 import { TestNgstyleComponent } from './directives/test-ngstyle/test-ngstyle.component';
 import { WordComponent } from './word/word.component';
 import { TestNgclassComponent } from './directives/test-ngclass/test-ngclass.component';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { TestNgclassComponent } from './directives/test-ngclass/test-ngclass.com
     DetailComponent,
     TestNgstyleComponent,
     WordComponent,
-    TestNgclassComponent
+    TestNgclassComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
