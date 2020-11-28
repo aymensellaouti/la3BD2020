@@ -19,6 +19,7 @@ import { ItemComponent } from './cv/item/item.component';
 import { DetailComponent } from './cv/detail/detail.component';
 import { TestNgstyleComponent } from './directives/test-ngstyle/test-ngstyle.component';
 import { WordComponent } from './word/word.component';
+import { TestNgclassComponent } from './directives/test-ngclass/test-ngclass.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { WordComponent } from './word/word.component';
     ItemComponent,
     DetailComponent,
     TestNgstyleComponent,
-    WordComponent
+    WordComponent,
+    TestNgclassComponent
   ],
   imports: [
     BrowserModule,
