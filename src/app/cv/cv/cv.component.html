@@ -1,10 +1,8 @@
 <div class="row">
   <div class="col">
-    <app-list></app-list>
+    <app-list (forwardSelectedPersonne)="selectPersonne($event)"></app-list>
   </div>
   <div class="col">
-    <app-detail></app-detail>
-    <!-- f() -->
+    <app-detail [personne]="selectedPersonne"></app-detail>
   </div>
 </div>
-
