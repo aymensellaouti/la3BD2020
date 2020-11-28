@@ -1,0 +1,26 @@
+<p
+  [ngStyle]="{
+    color: color,
+    fontSize: size + 'px',
+    fontFamily: font
+  }"
+>
+  word works!
+</p>
+
+<div class="row">
+  <div class="col">
+    <input type="color" class="form-control" [(ngModel)]="color" />
+  </div>
+  <div class="col">
+    <input type="number" class="form-control" [(ngModel)]="size" />
+  </div>
+  <div class="col">
+    <select class="form-control" [(ngModel)]="font">
+      <option value="verdana">Verdana</option>
+      <option value="garamond">Garamond</option>
+      <option value="arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+    </select>
+  </div>
+</div>
