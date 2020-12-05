@@ -1,1 +1,9 @@
-<p>test-ng-if works!</p>
+<p
+  *ngIf="isHidden"
+  >test-ng-if works!</p>
+
+  <button
+    (click)="showHide()"
+    class="btn btn-dark">
+    hide / show
+  </button>

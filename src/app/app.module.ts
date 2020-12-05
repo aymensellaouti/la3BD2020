@@ -23,6 +23,9 @@ import { TestNgclassComponent } from './directives/test-ngclass/test-ngclass.com
 import { HighlightDirective } from './directives/highlight.directive';
 import { RainbowDirective } from './directives/rainbow.directive';
 import { TestNgIFComponent } from './components/test-ng-if/test-ng-if.component';
+import { TestNgForComponent } from './components/test-ng-for/test-ng-for.component';
+import { ClubPipe } from './pipes/club.pipe';
+import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
 
 
 @NgModule({
@@ -46,7 +49,10 @@ import { TestNgIFComponent } from './components/test-ng-if/test-ng-if.component'
     TestNgclassComponent,
     HighlightDirective,
     RainbowDirective,
-    TestNgIFComponent
+    TestNgIFComponent,
+    TestNgForComponent,
+    ClubPipe,
+    DefaultImagePipe
   ],
   imports: [
     BrowserModule,

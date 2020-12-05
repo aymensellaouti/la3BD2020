@@ -13,15 +13,7 @@ export class ListComponent implements OnInit {
 
   ngOnInit(): void {
     this.personnes = [
-      new Personne(
-        1,
-        'sellaouti',
-        'aymen',
-        'teacher',
-        'rotating_card_profile2.png',
-        38,
-        12345
-      ),
+      new Personne(1, 'sellaouti', 'aymen', 'teacher', '', 38, 12345),
       new Personne(
         2,
         'Besbes',
@@ -30,6 +22,15 @@ export class ListComponent implements OnInit {
         'rotating_card_profile.png',
         25,
         784521
+      ),
+      new Personne(
+        3,
+        'Kchaou',
+        'nour',
+        'informaticienne',
+        '          ',
+        22,
+        574865
       ),
     ];
   }
