@@ -21,6 +21,8 @@ import { TestNgstyleComponent } from './directives/test-ngstyle/test-ngstyle.com
 import { WordComponent } from './word/word.component';
 import { TestNgclassComponent } from './directives/test-ngclass/test-ngclass.component';
 import { HighlightDirective } from './directives/highlight.directive';
+import { RainbowDirective } from './directives/rainbow.directive';
+import { TestNgIFComponent } from './components/test-ng-if/test-ng-if.component';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import { HighlightDirective } from './directives/highlight.directive';
     TestNgstyleComponent,
     WordComponent,
     TestNgclassComponent,
-    HighlightDirective
+    HighlightDirective,
+    RainbowDirective,
+    TestNgIFComponent
   ],
   imports: [
     BrowserModule,
