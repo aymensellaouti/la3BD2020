@@ -26,6 +26,7 @@ import { TestNgIFComponent } from './components/test-ng-if/test-ng-if.component'
 import { TestNgForComponent } from './components/test-ng-for/test-ng-for.component';
 import { ClubPipe } from './pipes/club.pipe';
 import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
+import { TodoComponent } from './todo/todo.component';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
     TestNgIFComponent,
     TestNgForComponent,
     ClubPipe,
-    DefaultImagePipe
+    DefaultImagePipe,
+    TodoComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,6 @@ export class LoggerService {
   constructor() {}
 
   logger(message) {
-    console.log(message);
+    console.log('La valeur de la variable est :', message);
   }
 }
