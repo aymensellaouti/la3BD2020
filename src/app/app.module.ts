@@ -30,6 +30,7 @@ import { TodoComponent } from './todo/todo.component';
 import { EmbauchesComponent } from './embauches/embauches.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
+import { DetailPersonneComponent } from './cv/detail-personne/detail-personne.component';
 
 
 @NgModule({
@@ -60,7 +61,8 @@ import { LoginComponent } from './login/login.component';
     TodoComponent,
     EmbauchesComponent,
     HeaderComponent,
-    LoginComponent
+    LoginComponent,
+    DetailPersonneComponent
   ],
   imports: [
     BrowserModule,
