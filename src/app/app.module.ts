@@ -27,6 +27,7 @@ import { TestNgForComponent } from './components/test-ng-for/test-ng-for.compone
 import { ClubPipe } from './pipes/club.pipe';
 import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
 import { TodoComponent } from './todo/todo.component';
+import { EmbauchesComponent } from './embauches/embauches.component';
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { TodoComponent } from './todo/todo.component';
     TestNgForComponent,
     ClubPipe,
     DefaultImagePipe,
-    TodoComponent
+    TodoComponent,
+    EmbauchesComponent
   ],
   imports: [
     BrowserModule,

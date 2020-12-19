@@ -1,0 +1,18 @@
+<div *ngIf="embauchees.length">
+  <p>Liste des personnes embauchées :</p>
+  <div class="embauche">
+    <span *ngFor="let personne of embauchees">
+      <span>
+        <img
+          src="assets/images/{{ personne?.path | defaultImage }}"
+          alt="{{ personne.firstname }} {{ personne.name }}"
+          width="150px"
+          height="150px"
+          class="rounded-circle"
+        />
+        {{ personne.firstname | titlecase }}
+        {{ personne.name | titlecase }}
+      </span>
+    </span>
+  </div>
+</div>
