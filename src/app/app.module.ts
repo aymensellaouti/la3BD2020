@@ -28,6 +28,7 @@ import { ClubPipe } from './pipes/club.pipe';
 import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
 import { TodoComponent } from './todo/todo.component';
 import { EmbauchesComponent } from './embauches/embauches.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -56,7 +57,8 @@ import { EmbauchesComponent } from './embauches/embauches.component';
     ClubPipe,
     DefaultImagePipe,
     TodoComponent,
-    EmbauchesComponent
+    EmbauchesComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
