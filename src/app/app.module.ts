@@ -29,6 +29,7 @@ import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
 import { TodoComponent } from './todo/todo.component';
 import { EmbauchesComponent } from './embauches/embauches.component';
 import { HeaderComponent } from './header/header.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -58,7 +59,8 @@ import { HeaderComponent } from './header/header.component';
     DefaultImagePipe,
     TodoComponent,
     EmbauchesComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
